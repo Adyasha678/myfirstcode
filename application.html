@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>
+        Job Application :-
+    </h2>
+
+    <form>
+
+        <label for="name">Name :</label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="email">Email :</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="phone">Phone No. :</label>
+        <br>
+        <input type="tel" id="phone" name="phone no.">
+        <br><br>
+
+        <label for="resume">Resume :</label><br>
+        <input type="file" id="resume" name="resume">
+        <br><br>
+
+        <label for="years">Experience (years) : </label><br>
+        <input type="num" id="years" min="0" max="10">
+        <br><br>
+
+        <fieldset>
+            <legend>
+                Skills
+            </legend>
+
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="HTML">
+            <br>
+
+            <label for="Java Script">Java Script</label>
+            <input type="checkbox" id="Java Script">
+            <br>
+
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="CSS">
+            <br>
+
+        </fieldset>
+
+        <label for="education">Higher Education :</label>
+        <select name="education" id="education">
+            <option value="high school">High School</option>
+            <option value="under graduate">Under Graduate</option>
+            <option value="past graduate">Past Graduate</option>
+        </select>
+        <br><br>
+        <label>Availability :</label>
+        <br>
+        <input type="radio " name="ava" id="full">
+        <label for="full">Full Time</label>
+        <br>
+        <input type="radio " name="ava" id="half">
+        <label for="half">Half Time</label>
+        <br><br>
+        <label for="comment">Additional Comment :</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        <br><br>
+        <button type="submit">Apply</button>
+
+    </form>
+</body>
+
+</html>
